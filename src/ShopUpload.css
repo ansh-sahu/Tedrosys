@@ -1,0 +1,271 @@
+.mob-view {
+    display: none;
+}
+
+/*Apply form  section */
+.desktop .hero {
+    width: 100%;
+    height: 92vh;
+    background-color: rgba(68, 68, 68, 0.733);
+    background-image: url(welcome.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.desktop .hero h4 {
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(to bottom, rgb(41, 116, 179), rgba(255, 0, 0, 0.6));
+    width: 40vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.desktop ::-webkit-scrollbar {
+    display: none;
+}
+
+.desktop .form {
+    width: 70%;
+    height: 77vh;
+    background-color: rgb(0 0 0 / 71%);
+    border-radius: 15px;
+    margin-bottom: 12px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.desktop form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 76vh;
+    margin-top: 15px;
+}
+
+.desktop #imgFileUpload {
+    cursor: pointer;
+    /* margin-top: 18vh; */
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.desktop .hero .input-tag h6 span {
+    color: red;
+
+}
+
+.desktop .input-tag {
+    margin-top: 5px;
+}
+
+.desktop .hero .input-tag input,
+textarea,
+select {
+    width: 100%;
+    height: 5vh;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.desktop .hero .input-tag select option {
+    color: black;
+
+}
+
+.desktop h3 {
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.desktop #myCheck {
+    width: 5vh;
+    height: 18px;
+
+}
+
+.desktop form button {
+    color: #fff;
+    border: 0.7px solid #fff;
+    width: 48%;
+    height: 6vh;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(3, 199, 198, 1), rgba(3, 199, 198, 0.8));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px;
+}
+
+.desktop form button:hover {
+    color: #fff;
+    background-color: rgb(1, 156, 1);
+}
+
+/* Upload multiple image css */
+
+.desktop .quote-imgs-thumbs {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin: 1.5rem 0;
+    padding: 0.75rem;
+}
+
+.desktop .quote-imgs-thumbs--hidden {
+    display: none;
+}
+
+.desktop .img-preview-thumb {
+    background: #fff;
+    border: 1px solid #777;
+    border-radius: 0.25rem;
+    box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+    margin-right: 1rem;
+    max-width: 140px;
+    padding: 0.25rem;
+}
+
+
+
+
+@media(max-width:700px) {
+    .desktop {
+        display: none;
+    }
+
+    .mob-view {
+        display: block;
+    }
+
+    .mob-view header {
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        background-color: rgba(3, 199, 198, 1);
+        color: white;
+    }
+
+    .mob-view .head {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 14px;
+    }
+
+    .mob-view .head span {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .mob-view hr {
+        margin: 0;
+    }
+
+    .mob-view form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mob-view form .from {
+        width: 95%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .mob-view form .from input,
+    textarea,
+    select {
+        /* width: 100%; */
+        height: 42px;
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 0.5px solid rgb(199, 199, 199);
+    }
+
+    .mob-view form .from label {
+        font-weight: 500;
+
+    }
+
+    .mob-view .btn {
+        width: 70%;
+        /* padding: 3px; */
+        border: none;
+        border-radius: 6px;
+        height: 6vh;
+        /* margin-bottom: 2px; */
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mob-view .btn:hover {
+        background-color: rgb(118, 197, 0);
+    }
+
+    .mob-view .btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .mob-view footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-radius: 15px 15px 0 0;
+        /* margin-bottom: 0; */
+        padding: 5px;
+        box-shadow: 0px -5px 3px rgb(15 15 15 / 20%);
+    }
+
+    .mob-view footer .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: dimgrey;
+    }
+
+    .mob-view .foot {
+        padding-top: 24px;
+    }
+}

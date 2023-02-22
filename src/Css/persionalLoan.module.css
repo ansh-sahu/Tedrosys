@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+.a{
+    text-decoration: none;
+    color:#fff ;
+}
+/* body{
+    background-color: #963b3b;
+} */
+                                                /* Navbar section */
+.container-fluid img{
+    height: 12vh;
+    padding-left: 30px;
+}
+#navbarNav  ul li a{
+color: #03C7C6;
+font-size: 16px;
+font-weight: 200;
+}
+#nav{
+    height: 11vh;
+    border-radius: 0 0 30px 30px;
+    border-bottom:1px solid #B7B7B7;
+    margin-bottom: -24px;
+}
+.location{
+    color: #03C7C6;
+}
+.location i{
+    color: #03C7C6;
+}
+.cate{
+    color: #2649A4 !important;
+}
+.login{
+    font-size: 16px;
+    border: 1px solid #03C7C6;
+    color: #03C7C6;
+    background: none;
+    border-radius: 10px;
+    width: 18vh;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sernot{
+    color: #03C7C6;
+    display: flex;
+    justify-content: space-around;
+    width: 20vh;
+    }
+.d-block w-100{
+    height: 474px;
+}
+#navbarNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user img{
+    height: 8vh;
+   
+}
+
+                                                /*Apply form  section */
+.hero{
+    width: 100%;
+    height: 92vh;
+    background-image: url("../img/Loan/Type of loan/personal.jpg");
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:end;
+
+}
+.hero h4{
+    color: white;
+    font-weight: 600;
+    background: linear-gradient( to bottom, rgba(3, 199, 198, 1),rgba(3, 199, 198, 0.6));
+    width: 40vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+}
+::-webkit-scrollbar { display: none; }
+.form{
+    width: 70%;
+    height: 76vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-bottom: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll; 
+}
+form{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:76vh;
+    margin-top: 15px;
+}
+.hero .input-tag h6 span{
+color: red;
+
+}
+.input_tag{
+    margin-top: 5px;
+}
+.hero .input-tag input,textarea{
+    width: 100%;
+    height: 5vh;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+ .h3{
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+
+}
+#myCheck{
+    width: 5vh;
+    height: 18px;
+    
+}
+form .button {
+    color: #fff;
+    border: 0.7px solid #fff;
+    width: 48%;
+    height: 6vh;
+    cursor: pointer;
+    background: linear-gradient( to bottom, rgba(3, 199, 198, 1),rgba(3, 199, 198, 0.8));
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px;
+}
+form .button:hover{
+    color: #fff;
+    background-color: rgb(1, 156, 1);
+}

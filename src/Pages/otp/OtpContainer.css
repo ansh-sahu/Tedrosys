@@ -1,0 +1,32 @@
+.otpcontainer {
+    width: 416px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+.App {
+    padding: 0;
+}
+
+.inputStyle {
+    margin-right: 10px;
+    width: 100% !important;
+    height: 2em;
+    border: 2px solid var(--theme-color);
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    outline: #d5b31d;
+    box-shadow: 0px 3px 1px var(--theme-color);
+}
+
+@media (min-width: 360px) and (max-width: 870px) {
+
+    .inputStyle {
+
+        /* margin-right: 8px; */
+        width: 30px;
+        height: 2rem;
+    }
+}
